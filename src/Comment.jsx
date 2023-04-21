@@ -17,7 +17,7 @@
 
 // this destructuring assignment syntax works with both
 // named functions and arrow functions
-export default function Comment({ comment }) {
+export default function Comment({ comment, otherProp }) {
     // const { comment } = props
     return (
         <li>{comment}</li>
